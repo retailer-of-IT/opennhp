@@ -32,6 +32,7 @@ type AgentOTPMsg struct {
 	UserData       map[string]any `json:"usrData,omitempty"`
 }
 
+// 测试
 type AgentRegisterMsg struct {
 	UserId         string         `json:"usrId"`
 	DeviceId       string         `json:"devId"`
